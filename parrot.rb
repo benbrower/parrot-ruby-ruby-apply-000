@@ -1,5 +1,5 @@
 def parrot(*string)
-  if string == []
+  if string == nil
     puts "Squawk!"
   end
   puts string
