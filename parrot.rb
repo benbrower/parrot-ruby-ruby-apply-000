@@ -1,3 +1,3 @@
-def parrot(string, squawk = "Squawk!")
+def parrot(squawk = "Squawk!")
   puts string
 end
