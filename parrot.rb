@@ -1,6 +1,3 @@
-def parrot(string)
-  if string == nil
-    string = "Squawk!"
-  end
+def parrot(string, squawk = "Squawk!")
   puts string
 end
