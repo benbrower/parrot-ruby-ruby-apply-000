@@ -1,4 +1,4 @@
-def parrot(*String str)
+def parrot(*str)
   if str == [] or str == nil
     str = "Squawk!"
   end
