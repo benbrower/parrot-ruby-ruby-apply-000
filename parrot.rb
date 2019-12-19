@@ -1,4 +1,4 @@
-def parrot(*str)
-  str = "Squawk!" if str.nil?
-    puts str
+def parrot(*string)
+  string ||= Squawk
+  puts string
 end
