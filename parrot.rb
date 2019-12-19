@@ -1,5 +1,3 @@
-def parrot(*string)
-  squawk = "Squawk!"
-  string = squawk if string.nil?
+def parrot(string="Squawk!")
   puts "#{string}"
 end
