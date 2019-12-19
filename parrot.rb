@@ -1,6 +1,6 @@
 def parrot(*str)
-  if str == [] or str == nil
-    str = "Squawk!"
+  if str
+    puts str
   end
-  puts str
+  puts "Squawk!"
 end
